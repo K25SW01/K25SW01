@@ -11,6 +11,8 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Generate contribution snake
